@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #212121;
+  color: #ffffff;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transition: background-color 0.5s ease;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+/* Start Button */
+#start {
+  background-color: #28a745;
+  color: white;
+}
+
+#start:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Stop Button */
+#stop {
+  background-color: #dc3545;
+  color: white;
+}
+
+#stop:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
